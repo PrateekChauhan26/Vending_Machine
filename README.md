@@ -1,6 +1,3 @@
 # Vending_Machine
-The Vending Machine is an automatic machine that sells food and drinks.
-I have designed a vending machine FSM(Finite State Machine) using verilog HDL language.
-First file is specifying the mechanism of machine.
-Second file is a testbench of first file.
-Third file is a dumpfile which shows gtkwave output.
+Implemented a vending machine FSM(Finite State Machine) using verilog HDL language.
+Vending Machine is a soft drink dispensor machine that dispenses drink based on the amount deposited in the machine. It accepts all the coins ie: Nickel(5 cents), Dime(10 cents), Quarter(25 cents). Till it recieves 40 cents it will not dispense anything. After it has recieved 40 cents it will dispense a softdrink.
